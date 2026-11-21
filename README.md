@@ -48,7 +48,7 @@ v2.00(4,243,488,768 바이트)에는 적용되지 않습니다. 해시가 다르
 
 | 파일 | 크기 | SHA-256 |
 |---|---|---|
-| `CodeGeass_LostColors_KR_v0.7.0.xdelta` | 30,119,835 바이트 | `041522cba24fc6815aed165bdac75150a824cd7f06e0ccb7cc0852cfade9dbbb` |
+| `CodeGeass_LostColors_KR_v0.7.1.xdelta` | 30,119,915 바이트 | `72726ed954df0c729ffebf99eb7aabc88d61baae8ad5a91ff9e3ddd5834c8e10` |
 
 [Releases](../../releases)에서 받을 수 있습니다. (기본판)
 
@@ -61,24 +61,24 @@ v2.00(4,243,488,768 바이트)에는 적용되지 않습니다. 해시가 다르
 4. 「한글판 만들기」를 누르고 저장할 곳을 고릅니다. 마지막에 「완성했습니다」가 뜨면 결과 해시까지 확인된 것입니다.
 
 ### xdelta UI / Delta Patcher (기본판, Windows)
-1. `CodeGeass_LostColors_KR_v0.7.0.xdelta`를 받습니다.
+1. `CodeGeass_LostColors_KR_v0.7.1.xdelta`를 받습니다.
 2. xdelta UI 또는 Delta Patcher에서 **Patch**에 xdelta 파일, **Source**에 원본 ISO를 지정합니다.
 3. 결과 파일 이름을 정하고 적용합니다.
 
 ### xdelta3 명령줄 (기본판)
 ```
-xdelta3 -d -s 원본.iso CodeGeass_LostColors_KR_v0.7.0.xdelta 결과.iso
+xdelta3 -d -s 원본.iso CodeGeass_LostColors_KR_v0.7.1.xdelta 결과.iso
 ```
 
 ### 적용 결과 확인
 
 | 결과 | 크기 | CRC32 | SHA-256 |
 |---|---|---|---|
-| 기본판 | 4,426,145,792 바이트 | `F8D6F5D3` | `b321bd97a901ed12e67700e9f49e3d789645f2f8c62e2882ac4a2d0f6db832d0` |
-| 합본판 | 4,507,557,888 바이트 | `1B471A1D` | `ed264a8f87b2e782ca3d332c9a30c0308ed34820a058bddf18b83d7c63863291` |
-| 합본판 (엔딩 영상 포함) | 4,507,557,888 바이트 | `ED50C210` | `82ec070d97ec8db68cf25e91d19e7a65d64f4ada21ac861a01ab990fb0ab7978` |
+| 기본판 | 4,426,145,792 바이트 | `E27AEC31` | `fe676e7b134b66ca11871c045fd8320bee82698c036ea4f90e46842cf1570537` |
+| 합본판 | 4,507,557,888 바이트 | `F4EE8B7D` | `acd4dba3b5579d2791c94035548a456cc995a74ca1e71638e48851ff38e014d4` |
+| 합본판 (엔딩 영상 포함) | 4,507,557,888 바이트 | `02F95370` | `13b4f24011c7ba57678efe5ba74fec4413bbde535e0d3a43e056e93063112fce` |
 
-## 현재 상태 (v0.7.0)
+## 현재 상태 (v0.7.1)
 
 - 대사·선택지·메뉴·시어터 등 게임 안 문장 전체를 한국어로 표시합니다.
 - 타이틀 로고, 배경화면, 지도·달력, 알림 등 그림 속 글자도 한글로 바꿨습니다.
@@ -100,6 +100,10 @@ xdelta3 -d -s 원본.iso CodeGeass_LostColors_KR_v0.7.0.xdelta 결과.iso
 문제를 발견하면 Issues에 장면, 스크린샷, 사용한 에뮬레이터(또는 실기)를 함께 알려 주세요.
 
 ## 변경 이력
+
+### v0.7.1 (2026-11-21)
+- 기본판 CONFIG 도움말이 기본판에 없는 편의 기능(R2 빨리감기, START 스킵, L1 오토)을 안내하던 것을 원문대로 고쳤습니다.
+- 패치 페이지의 저장 공간 안내를 고쳤습니다.
 
 ### v0.7.0 (2026-11-21)
 - 첫 공개 릴리스.
